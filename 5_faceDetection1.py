@@ -33,5 +33,6 @@ for x, y, w, h in wajah:
 
 resized = cv2.resize(img, (800,600))
 cv2.imshow('Lionel Messi', resized)
+cv2.imwrite('5_outMessi.jpg', resized)
 cv2.waitKey(0)
 cv2.destroyAllWindows()
