@@ -1,0 +1,10 @@
+
+if cv2 is not recognized, or vscode cannot identify cv2 members:
+
+1. CTRL + shift + P
+
+2. choose: 
+    "Preferences: Open Settings (JSON)"
+
+3. add this line into JSON file: 
+    "python.linting.pylintArgs": ["--generate-members"]
