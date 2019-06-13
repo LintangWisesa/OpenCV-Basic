@@ -5,7 +5,7 @@ import cv2
 # https://github.com/opencv/opencv/tree/master/data/haarcascades
 face_cascade = cv2.CascadeClassifier("haarcascade_frontalface_default.xml")
 
-img = cv2.imread('4_messi.jpg')
+img = cv2.imread('5_grup.jpg')
 
 gray_img = cv2.cvtColor(img, cv2.COLOR_BGR2GRAY)
 
@@ -32,6 +32,6 @@ for x, y, w, h in wajah:
     )
 
 resized = cv2.resize(img, (800,600))
-cv2.imshow('Lionel Messi', resized)
+cv2.imshow('Coding For Teens', resized)
 cv2.waitKey(0)
 cv2.destroyAllWindows()
