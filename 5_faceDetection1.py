@@ -3,7 +3,7 @@
 import cv2
 
 # https://github.com/opencv/opencv/tree/master/data/haarcascades
-face_cascade = cv2.CascadeClassifier("haarcascade_frontalface_default.xml")
+face_cascade = cv2.CascadeClassifier("./methods/haarcascades/haarcascade_frontalface_default.xml")
 
 img = cv2.imread('5_messi.jpg')
 
